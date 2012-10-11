@@ -168,7 +168,7 @@ msgstr ""
 
 #: wp-twitter-widget.php:137 wp-twitter-widget.php:416
 msgid ""
-"Format to dispaly the date in, uses <a href=\"%s\">PHP date()</a> format:"
+"Format to display the date in, uses <a href=\"%s\">PHP date()</a> format:"
 msgstr ""
 
 #: wp-twitter-widget.php:142 wp-twitter-widget.php:446
@@ -229,7 +229,7 @@ msgstr ""
 
 #: wp-twitter-widget.php:298
 msgid ""
-"A small perecntage of servers seem to have issues where an update lock isn't "
+"A small percentage of servers seem to have issues where an update lock isn't "
 "getting cleared.  If you're experiencing issues with your feed not updating, "
 "try clearing the update locks."
 msgstr ""
