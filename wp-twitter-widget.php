@@ -36,7 +36,7 @@ define( 'TWP_VERSION', '2.4.0' );
  * WP_Widget_Twitter_Pro is the class that handles the main widget.
  */
 class WP_Widget_Twitter_Pro extends WP_Widget {
-	public function WP_Widget_Twitter_Pro () {
+	public function __construct () {
 		$this->_slug = 'twitter-widget-pro';
 		$wpTwitterWidget = wpTwitterWidget::getInstance();
 		$widget_ops = array(
@@ -50,7 +50,7 @@ class WP_Widget_Twitter_Pro extends WP_Widget {
 		);
 		$name = __( 'Twitter Widget Pro', $wpTwitterWidget->get_slug() );
 
-		$this->WP_Widget( 'twitter', $name, $widget_ops, $control_ops );
+		parent::__construct( 'twitter', $name, $widget_ops, $control_ops );
 	}
 
 	private function _getInstanceSettings ( $instance ) {
